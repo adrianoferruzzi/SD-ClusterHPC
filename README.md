@@ -6,7 +6,7 @@ Diretórios:</br>
 &nbsp;&nbsp; <b>master</b> - Scripts de configuração do master node - 512 MB de memória e 1 CPU </br>
 &nbsp;&nbsp; <b>c01</b> - Scripts de configuração dos compute node - 512 MB de memória e 1 CPU </br>
 
-Todo projeto foi criado em Ubuntu 18.04 LTS </br>
+Todo projeto foi criado em Ubuntu 20.04 LTS </br>
 Após instalar o Ubuntu faça a instalação do Vagrant, wget, libvirt e inicie os serviços:
 
 ```
