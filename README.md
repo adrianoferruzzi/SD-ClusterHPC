@@ -20,6 +20,7 @@ sudo systemctl enable libvirtd
 
 ```
 wget https://download.virtualbox.org/virtualbox/6.1.26/virtualbox-6.1_6.1.26-145957~Ubuntu~bionic_amd64.deb
+sudo dpkg -i virtualbox-6.1_6.1.26-145957~Ubuntu~bionic_amd64.deb
 sudo apt-get -y install virtualbox-qt
 ```
 
