@@ -26,7 +26,7 @@ sudo apt-get -y install nfs-common
 sudo systemctl restart nfs-utils.service
 sudo systemctl enable nfs-utils.service 
 sudo mount -t nfs 10.0.10.1:/home /home  
-sudo sh -c "echo '10.0.10.1:/home      /home        nfs defaults,soft 0 0' >> /etc/hosts"
+sudo sh -c "echo 'master:/home      /home        nfs defaults,soft 0 0' >> /etc/hosts"
 
 sudo useradd -s /bin/bash -d /home/aluno -c "test user" -m aluno
 
