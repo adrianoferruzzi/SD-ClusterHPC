@@ -29,7 +29,7 @@ sudo apt-get -y install virtualbox-qt
 vagrant up
 ```
 
-<img src="Cluster.png" alt="Cluster Architecture">
+<img src="cluster.png" alt="Cluster Architecture">
 
 
 <h3> Referências </h3> 
